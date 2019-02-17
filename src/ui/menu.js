@@ -18,6 +18,17 @@ const menuIsVisible = new ObservableValue(true);
 const obsMenuIsShowing = menuIsVisible.observable().whenDifferent();
 let closeMenu = () => menuIsVisible.set(false);
 
+const garLink = {
+
+    "cols":[
+
+        ["•","•","⊖"],
+        ["⊖","⊖","•"],
+        ["•","•","⊖"]
+    ],
+    "gates":[{id:"",name}]
+};
+
 const groverLink = {
     "cols":[
         ["X","X","X","X","X"],
